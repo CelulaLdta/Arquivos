@@ -1,0 +1,39 @@
+ <!-- -- >  <div class="container">
+        <div class="button">  
+                   
+                    <button type="button">Boleto Bancário</button>
+                       
+                    <button type="button">Cartão de Crédito</button>
+                      
+                    <button type="button">Cartão de Débito</button>
+
+                    <button type="button" id="BtnPix">Pagamento em PIX</button>
+                      
+                    <button type="button">Pagamento em PIX</button>
+                   
+        </div>
+        <form id ="formadepagamento" action="" method="post" class="metodosdepagamento">
+            <div class="metodopagamento">
+                
+
+
+            </div>
+        <h1>Forma de pagamento</h1>
+        <br>
+        <p>Boleto tem aaté 15% de desconto na compra e a forma de pagamento que recebe o maior desconto sob o valor total da compra.Está é a forma mais vantaosa para quem deseja pagar á vista. Você poderá efetuar o pagamento do boleto em qualquer Banco ou Casa Lotérica em qualquer lugar do Brasil, sem necessidade de confirmarção do pagamento."o Descoto poderá ser concedida ou não até o limite de 15%, podendo ser menor ou zero, de acordo como detalhado nas descrições do produto e só será aplicada ás vendas diretas e entregues pelas nossa empresa, não se aos produtos de marktplace</p>
+
+        <fieldset>
+            <div id="valor" class="total">
+                <h1>TOTAL DE SUA COMPRA:</h1>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div id="valor" class="total">
+                <h1>PAGAMENTO VIA BOLETO:</h1>
+            </div>
+
+        </fieldset>
+
+    </form>
+    

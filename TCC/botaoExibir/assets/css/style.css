@@ -1,0 +1,20 @@
+div.pix{
+    border: 5px solid #00ff40;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+section.container div.descricao-pix{
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+section.container div.descricao-pix.ativo{
+    height: 150px;
+    transition: .2s;
+}
+
+.pix p{
+    right: 10px;
+}
